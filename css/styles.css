@@ -335,11 +335,10 @@ color: #212121;
 
 .team-profession {
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    margin-bottom: 16px;
     color: #757575;
 }
  .team-list {
@@ -396,15 +395,21 @@ color: #212121;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    padding-bottom: 0px;
 }
 .hero-two-item {
     width: calc((100% - 60px) / 3);
-    width: 370px;
 }
 
-.hero-two-list{ 
-    padding-bottom: 0px;
+.hero-two-link {
+    display: block;
 }
+
+.hero-two-link:hover,
+.hero-two-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 
 .hero-two-btn {
     padding-left: 22px;
@@ -433,10 +438,13 @@ color: #212121;
 }
 
 .hero-two-w {
-    padding: 20px 24px 20px 24px;
-    border-left: 24px;
-    border-right: 24px; 
-    border-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 370px;
+    border: 1px solid #eeeeee;
+    border-top: none;
 }
 .hero-two-title {
 font-weight: 700;
